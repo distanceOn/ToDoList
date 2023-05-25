@@ -33,10 +33,17 @@ export const todoSlice = createSlice({
 
       targetTodo.completed = !targetTodo.completed;
     },
+
+    deleteTodo: (state, { payload }) => {
+      const { id } = payload;
+
+      const targetTodo = state.byIds[id];
+
+      targetTodo.deleted = true;
+    },
   },
 });
 
-
-export const { addTodo, toggleCompleteness } = todoSlice.actions;
+export const { addTodo, toggleCompleteness, deleteTodo } = todoSlice.actions;
 
 export default todoSlice.reducer;

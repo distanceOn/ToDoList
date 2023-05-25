@@ -1,5 +1,27 @@
-.list {
+.lists {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+  width: 100%;
+}
+.lists div {
+  color: yellow;
+}
+
+.list__uncompleted {
   margin-top: 1rem;
   text-align: left;
   list-style: none;
+
+  max-height: 20%;
+  overflow-x: auto;
+}
+
+.list__completed {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+
+  max-height: 20%;
+  overflow-x: auto;
 }
