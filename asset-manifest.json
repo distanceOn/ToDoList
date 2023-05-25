@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/distanceOn/ToDoList/static/css/main.f641d525.css",
+    "main.js": "/distanceOn/ToDoList/static/js/main.f9226e8e.js",
+    "index.html": "/distanceOn/ToDoList/index.html",
+    "main.f641d525.css.map": "/distanceOn/ToDoList/static/css/main.f641d525.css.map",
+    "main.f9226e8e.js.map": "/distanceOn/ToDoList/static/js/main.f9226e8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f641d525.css",
+    "static/js/main.f9226e8e.js"
+  ]
+}
